@@ -1,0 +1,1 @@
+[{"spot_price":"26198.83","fut_price":"26197.00","lot_size":"65","avgiv":"7.32","ivr":"10.56","ivp":"6.02","last_updated":"2025-12-31 10:31:59","fair_price":"26080.78","futures_lots_size":"65"}]
