@@ -1,0 +1,124 @@
+
+  /* darktheme css */
+
+.dark-theme #sort_table,
+.dark-theme #sort_table th,
+.dark-theme #sort_table td {
+  border: 1px solid #2b2b2b;
+}
+.dark-theme #sort_table th {
+  background: #2e2e2e;
+}
+
+@media screen and (max-width: 1000px) {
+  footer div {
+    border-top: 0.5px solid #2d87b8;
+  }
+  .dark-theme .topnav a {
+    border-top: 0.5px solid #2e2e2e;
+  }
+  .dark-theme footer div {
+    border-top: 0.5px solid #2e2e2e;
+  }
+  .dark-theme footer div:last-child {
+    border-bottom: 0.5px solid #2e2e2e;
+  }
+  .dark-theme .topnav a:first-child,
+  .dark-theme .topnav a:last-child {
+    border-bottom: 0.5px solid #2e2e2e;
+  }
+  .dark-theme .sub-dropdown .sub-dropbtn,
+  .dark-theme .dropdown-content a:not(:last-child),
+  .dark-theme .sub-dropdown-content a:not(:last-child) {
+    border-bottom: 0.5px solid #2e2e2e !important;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .dark-theme .dropdown {
+    border-top: 0.5px solid #2e2e2e;
+  }
+}
+
+/* toggler css */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 40px;
+  height: 22px;
+}
+
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  border-radius: 34px;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 15px;
+  width: 15px;
+  left: 3px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  border-radius: 50%;
+}
+
+input:checked + .slider {
+  background-color: #2e2e2e;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2e2e2e;
+}
+.dark-theme .topnav a:hover input:checked + .slider {
+  background-color: #1a1a1a;
+}
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+  left: -4px;
+}
+
+
+  /* Light theme styles */
+  body {
+    background-color: white;
+    color: black;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* Dark theme styles */
+body.dark-theme {
+    background-color: black;
+    color: white;
+}
+
+/* calenedar bg css */
+.dark-theme #txtDate {
+  color-scheme: dark;
+}
+
+  .darktheme_color{
+  color: black;
+  font-family: "Helvetica", "Arial", "sans-serif";
+  font-weight: normal
+}
+.dark-theme  .darktheme_color{
+  color: white;
+  font-family: "Helvetica", "Arial", "sans-serif";
+  font-weight: normal
+  
+}
