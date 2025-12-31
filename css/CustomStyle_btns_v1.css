@@ -1,0 +1,41 @@
+body.dark-theme {
+			div.dt-button-collection {
+				background: #000000 !important;
+			}
+		}
+
+		.optionChainIcon {
+			font-size: 16px;
+			cursor: pointer;
+			border: 2px solid grey;
+			/* padding: 6px; */
+			border-radius: 5px;
+		}
+
+		.optionChainIcon:hover {
+			background-color: #2F90BD;
+			color: white;
+		}
+		.btncls {
+			/* min-width: 42px; */
+			padding: 0 5px;
+			font-size: 12px;
+			/* line-height: 30px; */
+			/* height: 30px; */
+		}
+		.btnSubmit.mdl-button {
+    padding: 0 10px !important;
+    font-size: 12px !important;
+	margin:0.25em;
+	min-width: 8px !important; 
+	
+}
+
+
+.mdl-button {
+    /* padding: 0 5px !important; */
+    font-size: 12px !important;
+}
+		.newButtonClass{
+			vertical-align: baseline !important;
+		}

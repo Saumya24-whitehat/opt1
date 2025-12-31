@@ -1,0 +1,402 @@
+
+  /* darktheme css 1.3*/
+body.dark-theme {
+    background-color: black !important;
+    color: #f8f8f8 !important;
+
+}
+.dark-theme #sort_table,
+.dark-theme #sort_table th,
+.dark-theme #sort_table td {
+  border: 1px solid #2b2b2b;
+}
+.dark-theme #sort_table th {
+  background: #2e2e2e;
+}
+
+@media screen and (max-width: 1000px) {
+  footer div {
+    border-top: 0.5px solid #2d87b8;
+  }
+  .dark-theme .topnav a {
+    border-top: 0.5px solid #2e2e2e;
+  }
+  .dark-theme footer div {
+    border-top: 0.5px solid #2e2e2e;
+  }
+  .dark-theme footer div:last-child {
+    border-bottom: 0.5px solid #2e2e2e;
+  }
+  .dark-theme .topnav a:first-child,
+  .dark-theme .topnav a:last-child {
+    border-bottom: 0.5px solid #2e2e2e;
+  }
+  .dark-theme .sub-dropdown .sub-dropbtn,
+  .dark-theme .dropdown-content a:not(:last-child),
+  .dark-theme .sub-dropdown-content a:not(:last-child) {
+    border-bottom: 0.5px solid #2e2e2e !important;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .dark-theme .dropdown {
+    border-top: 0.5px solid #2e2e2e;
+  }
+}
+
+/* toggler css */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 40px;
+  height: 22px;
+}
+
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  border-radius: 34px;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 15px;
+  width: 15px;
+  left: 3px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  border-radius: 50%;
+}
+
+input:checked + .slider {
+  background-color: #2e2e2e;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2e2e2e;
+}
+.dark-theme .topnav a:hover input:checked + .slider {
+  background-color: #1a1a1a;
+}
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+  left: -4px;
+}
+
+
+  /* Light theme styles */
+  body {
+    background-color: white;
+    color: black;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* Dark theme styles */
+body.dark-theme {
+    background-color: rgb(18, 18, 18);
+    color: white;
+}
+.dark-theme #optExpDate_hist {
+  background-color: rgb(18, 18, 18);;
+  color: white;
+}
+/* .dark-theme #optExpDate {
+  background-color: rgb(18, 18, 18);;
+  color: white;
+} */
+.dark-theme .select2-container--default .select2-selection--single .select2-selection__rendered {
+  background-color: black;
+  color: #f8f8f8;
+  border-bottom: 1px solid #f8f8f8;
+  border-radius: 4px;
+}
+.dark-theme .select2-results__option {
+  border-bottom: 1px solid #3b3b3b;
+}
+.dark-theme ::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+.dark-theme ::selection {
+  background: #3b3b3b !important;
+}
+.dark-theme .select2-results__options .select2-results__options--nested, .dark-theme .select2-results__option {
+  background-color: #000;
+}
+.dark-theme .select2-container--default .select2-search--dropdown .select2-search__field, .dark-theme .select2-search--dropdown {
+  background: #3b3b3b;
+  color: #f8f8f8;
+}
+.dark-theme .select2-container--default .select2-results__option[aria-selected=true] {
+  background-color: #f8f8f8 !important;
+  color: #000;
+}
+
+/* highcharts-a11y-proxy-group highcharts-a11y-proxy-group-legend */
+/* highcharts-a11y-proxy-button */
+.dark-theme .select2-container--default .select2-results__group {
+  background-color: #3b3b3b;
+}
+body.dark-theme div#chartContainer{
+  background-color:black !important;;
+  color: black !important;;
+}
+
+.dark-theme .mdl-radio__ripple-container {
+  color: white;
+}
+/* calenedar bg css */
+.dark-theme #txtDate {
+  color-scheme: dark;
+}
+
+  .darktheme_color{
+  color: black;
+  font-family: "Helvetica", "Arial", "sans-serif";
+  font-weight: normal
+}
+.dark-theme  .darktheme_color{
+  color: white;
+  font-family: "Helvetica", "Arial", "sans-serif";
+  font-weight: normal
+  
+}
+.dark-theme .scxToolbarButton-dropdownElement {
+  background-color:black;
+
+
+}
+.dark-theme .scxTimeFramePicker-button-units{
+  color: white;
+}
+.dark-theme .scxIndicatorItem:hover{
+ color: black !important;
+ 
+  
+}
+.dark-theme .input-group-addon {
+  color: #e6dddd;
+ }
+
+
+.dark-theme .scxToolbar{
+  /* color: white; */
+  background-color: black;
+
+
+}
+
+.dark-theme .scxToolbarButton-toggleDropdownBtn{
+  color: white;
+
+}
+.dark-theme #FuturesData .material-icons{
+  color: white;
+  /* background-color: black; */
+
+}
+
+/* Dark theme styles */
+
+
+.dark-theme .scxPanelSplitter{
+  background-color: #a6a6a6 !important;
+  
+}
+
+.dark-theme .scxRightValueScale{
+  border-left: 1px solid #8c8c8c !important;  
+  /* background: rgb(18, 18, 18) !important;  */
+
+ 
+}
+.dark-theme .scxScrollbar {
+  background-color: #1d1d1d !important;
+}
+
+.dark-theme .scxValueScaleScroll {
+	border-left: 1px solid white!important;
+ 
+}
+.dark-theme .scxCrossHairHorLine{
+  border-top: 1px dashed #f2f2f2 !important
+}
+.dark-theme .scxCrossHairVerLine{
+  border-left: 1px dashed #f2f2f2 !important
+}
+
+
+
+
+.dark-theme .scxBottomDateScale{
+  border-top: 1px solid darkgray  !important; 
+  background: rgb(18, 18, 18) !important; 
+  }
+ 
+.dark-theme .scxDialog .modal-dialog .modal-content {
+  background-color: #333333  !important;
+  color: #FFFFFF  !important;
+}
+
+.dark-theme #scxIndicators .modal-dialog .modal-header input.form-control {
+  background-color: #333;
+  border-color: #CCC;
+  color: #FFF;
+}
+.dark-theme .scxDialog .modal-dialog .modal-content .modal-header .close {
+  color: #FFF;
+  text-shadow: 0 1px 0 #333;
+}
+.dark-theme #scxIndicators .modal-dialog .modal-header #scxIndicators_searchBlock>.input-group>.input-group-addon {
+  background-color: #333;
+  border-color: #B7B7B7;
+}
+.dark-theme  #scxIndicators .modal-dialog .modal-header .scxIndicators_helpControlPanel {
+  background-color: #333;
+  color: #FFF;
+
+}
+.dark-theme  #scxIndicators .modal-dialog .modal-header label[for="scxIndicators_chkHelpSwitcher"] {
+  color: #FFF;
+}
+.dark-theme .scxDialog .scx_switchery {
+  background-color: #333;
+  border-color: #666666;
+}
+.dark-theme .scxDialog .scx_switchery>small {
+  background-color: #bfbfbf;
+}
+
+.dark-theme .scxDialog .dropdown-toggle.selectpicker {
+  border-color: #CCC;
+  background-color: #333;
+  color: #FFF;
+}
+.dark-theme .scxDropdown .dropdown-menu {
+  background-color: black;
+  color: #FFF;
+  border-color: #CCC;
+ 
+}
+.dark-theme #optTempLoadID{
+  background-color: rgb(18, 18, 18);
+  color: #FFF;
+  border-color: #CCC;
+ 
+}
+.dark-theme .mdl-textfield__input {
+  border-bottom: 1px solid #f8f8f8 !important;
+}
+.dark-theme .scxRootContainer{
+  background-color: white !important;
+
+}
+.dark-theme .scxWaitingBarContainer {
+  background-color: rgba(18, 15, 15, 0.6);
+  color: white;
+}
+:root {
+  --series-color: black !important;
+  --tooltip-bgcolor: rgba(255, 255, 255, 0.7)  !important; 
+  --green-color : green !important;
+
+}
+
+body.dark-theme {
+  --series-color: white !important; 
+  --tooltip-bgcolor: rgba(0, 0, 0, 0.7)  !important; 
+  --green-color : green !important;
+
+}
+.dark-theme  .scxNavigation-btn-scrollToFirst {
+  color: #a6a6a6;
+}
+.dark-theme  .scxNavigation-btn-scrollLeft {
+  color: #a6a6a6;
+}
+.dark-theme  .scxNavigation-btn-zoomOut {
+  color: #a6a6a6;
+}
+.dark-theme  .scxNavigation-btn-zoomIn {
+  color: #a6a6a6;
+}
+.dark-theme  .scxNavigation-btn-scrollRight {
+  color: #a6a6a6;
+}
+.dark-theme  .scxNavigation-btn-scrollToLast {
+  color: #a6a6a6;
+}
+ 
+.dark-theme .scxPanelTitleIcon {
+  color: #eeeeee;
+}
+.dark-theme .scxToolbar-btn .scxToolbarButton-dropdownElement-image {
+  color: white;
+}
+.dark-theme .scxToolbarButton .scxToolbarButton-buttonWrapper .scxToolbarButton-activateBtn .scxToolbarButton-dropdownElement-image {
+  color: white;
+}
+.dark-theme .scxToolbarButtonWithDropdown .scxToolbarButton-toggleDropdownBtn .scxToolbarButton-dropdownElement-image {
+  color: white;
+}
+.dark-theme .scxToolbarButton.scxToolbarCanToggle .scxToolbarButton-buttonWrapper .scxToolbarButton-activateBtn .scxToolbarButton-dropdownElement-image {
+  color: white;
+}
+.dark-theme .scxToolbarButton-dropdownElement-image{
+  color: white !important;
+}
+.dark-theme .scxToolbar-btn {
+  border-color: #bfbfbf;
+}
+.dark-theme .scxToolbarButton-buttonWrapper {
+  border-color: #bfbfbf;
+}
+.dark-theme .scxToolbarButton-dropdownElement:hover{
+	background-color:blue;
+	color :#4a4a4a!important;
+
+}
+.dark-theme .scxToolbarButton-dropdownElement.active .scxToolbarButton-dropdownElement-image{
+	color :#4a4a4a!important;
+}
+.dark-theme .scxToolbarButton.active .scxToolbarButton-buttonWrapper{
+	background-color:gray !important;
+}
+/* Hover background white */
+.dark-theme .scxToolbarButton-buttonWrapper:hover {
+    background-color: gray !important;
+	color:black !important;
+}
+
+/* Dark theme dropdown icon black */
+.dark-theme .scxToolbarButton-dropdownElement-image:hover {
+    filter: brightness(0) !important;
+}
+.dark-theme .scxToolbarButton-buttonWrapper:hover 
+.scxToolbarButton-dropdownElement-image {
+    color: #000000 !important;
+    fill: #000000 !important;
+}
+.dark-theme .scxToolbarButton-dropdownElement:hover 
+.scxToolbarButton-dropdownElement-image,
+.dark-theme .scxToolbarButton-dropdownElement:hover 
+.scxToolbarButton-dropdownElement-image svg path {
+    color: #000000 !important;
+    fill: #000000 !important;
+    filter: brightness(0) !important;
+}
+.dark-theme .scxToolbarDelete:hover {
+  background-color: #e4e8eeff !important;	
+}

@@ -1,0 +1,85 @@
+
+
+    /* Wrapper */
+    #col-vis-wrapper {
+        position: relative;
+        display: inline-block;
+		vertical-align: middle;
+    }
+
+    /* Settings button */
+    #col-vis-toggle {
+        background: #3092c0;
+        border: none;
+        padding: 0.5rem 0.75rem;
+        border-radius: 4px;
+        cursor: pointer;
+        display: flex;
+        width: 50px !important;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-left: 10px;
+    height: 30px;
+    border: 0;
+    font-weight: 400;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+		
+    }
+
+    #col-vis-toggle .material-icons {
+        color: white;
+        font-size: 21px;
+    }
+
+    /* Dropdown panel */
+    #col-vis-menu {
+        display: none;
+        position: absolute;
+        background: #fff;
+        padding: 12px;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.25);
+        border-radius: 8px;
+        min-width: 150px;
+        z-index: 1000;
+		// justify-self:center;
+		    /* NEW BORDER + SHADOW */
+    border: 1px solid #d9d9d9;            /* light border */
+    box-shadow: 0 4px 12px rgba(0,0,0,0.18);  /* soft shadow */
+
+    }
+
+    /* LQV Buttons block */
+    
+    /* Inline table blocks */
+    .inline-table {
+        display: inline-table;
+    }
+
+    /* Lakhs / Crores label */
+    #lak_cr {
+        display: inline;
+        font-size: 13px;
+    }
+
+    #lak_cr .mdl-checkbox__label {
+        font-size: 13px;
+        vertical-align: -webkit-baseline-middle;
+    }
+.cv-divider {
+    border-bottom: 1px solid #e5e5e5;
+    margin: 6px 0;
+}
+div.ColVis{
+	margin-bottom:unset !important;
+}
+
+.dark-theme #col-vis-menu{
+    background-color:black;
+ }
+ 

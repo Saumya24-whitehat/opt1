@@ -1,0 +1,150 @@
+body.dark-theme {
+    background-color: black !important;
+    color: #f8f8f8 !important;
+
+}
+
+.dark-theme .highcharts-background {
+    background-color: black;
+    color: #f8f8f8;
+    fill: black !important;
+}
+
+.dark-theme .highcharts-button-box {
+    fill: #151520;
+    color: #f8f8f8;
+}
+
+.dark-theme .highcharts-button-pressed {
+    fill: #2929c4;
+    color: #f8f8f8;
+}
+
+.dark-theme .highcharts-button-pressed .highcharts-button-box {
+    /* Your custom styles here */
+    fill: #ff0000 !important;
+    /* Example: change fill color to red */
+}
+
+.dark-theme .highcharts-tooltip text {
+    fill: #f8f8f8 !important;
+    background-color: black !important;
+}
+
+.dark-theme .highcharts-tooltip {
+    /* background-color: #00ff26 !important; */
+    /* Changes the tooltip background color */
+    /* border: 1px solid #000000; */
+    /* Example: add a border to the tooltip */
+    padding: 5px;
+    /* Example: add padding */
+}
+
+:root {
+    --series-color: black !important;
+    /* color: 'var(--series-color)', */
+    --tooltip-bgcolor: rgba(255, 255, 255, 0.7) !important;
+    /* under tooltip: { backgroundColor:'var(--tooltip-bgcolor)', */
+    --price-color: #000;
+    /* color: 'var(--price-color)', */
+    --grid-line-color: rgba(0, 0, 0, 0.1) !important;
+    /* gridLineColor: 'var(--grid-line-color)', */
+}
+
+body.dark-theme {
+    --series-color: #f8f8f8 !important;
+    --tooltip-bgcolor: rgba(0, 0, 0, 0.5) !important;
+    --price-color: #f8f8f8;
+   
+    --grid-line-color:  rgba(255, 255, 255, 0.25) !important;
+    /* F0F0F0 */
+    /* gridLineColor: 'var(--grid-line-color)', */
+
+}
+
+.dark-theme .highcharts-legend-item-hidden text {
+    fill: #CECCCC !important;
+}
+
+
+/* Change the color of the annotation shapes */
+.dark-theme .highcharts-annotation-shapes path {
+    stroke: blue;
+    /* New stroke color for lines */
+    stroke-width: 2;
+    /* New stroke width */
+}
+
+.dark-theme .highcharts-annotation .highcharts-annotation-shapes path {
+    stroke: rgb(255, 255, 255) !important;
+    opacity: 0.5;
+    stroke-width: 2;
+}
+
+.dark-theme .highcharts-annotation .highcharts-annotation-shapes .highcharts-tracker-line path {
+    stroke: rgb(255, 255, 255) !important;
+    fill: rgb(255, 255, 255) !important;
+    stroke-width: 2;
+}
+
+/* .highcharts-bindings-wrapper li>span.highcharts-menu-item-btn:hover {
+    background-color: #7f7f81 !important;
+    transition: background-color 100ms;
+} */
+/* 
+.dark-theme .highcharts-grid-line {
+    stroke: rgba(255, 255, 255, 0.1) !important;
+} */
+/* Dark mode styles */
+body.dark-theme .highcharts-menu-item-btn,
+body.dark-theme .highcharts-submenu-item-arrow {
+    /* background-color: #2b2b2b; / *Dark background */
+    color: #ffffff; /* Light text color */
+}
+body.dark-theme .highcharts-submenu-item-arrow:hover{
+	background-color:dimgray !important;
+}
+/* Icons in dark mode */
+body.dark-theme .highcharts-menu-item-btn {
+    filter: invert(1); /* Invert colors for the icons */
+}
+body.dark-theme path.highcharts-crosshair.highcharts-crosshair-category{
+    stroke:#2b2b2ba1 !important;
+}
+body.dark-theme .irs--round .irs-min,body.dark-theme .irs--round .irs-max{
+    color: #f8f8f8;
+    background-color: #3B3B3B !important;
+
+}
+
+body.dark-theme rect.highcharts-scrollbar-track {
+    fill: black;
+}
+/* Change the hover style for the line tracker */
+/* .dark-theme .highcharts-tracker-line { */
+/* stroke: rgba(255, 0, 0, 0.5); */
+/* New hover stroke color */
+/* stroke-width: 3; */
+/* New hover stroke width */
+/* } */
+
+/* Default button style */
+/* .highcharts-a11y-proxy-button {
+    background-color: transparent;
+    
+} */
+
+/* When aria-pressed is true */
+/* .highcharts-a11y-proxy-button[aria-pressed="true"] { */
+/* background-color: green; // Color when pressed  */
+/* } */
+
+/* When aria-pressed is false */
+/* .highcharts-a11y-proxy-button[aria-pressed="false"] { */
+/* background-color: red; */
+/* Color when not pressed */
+/* } */
+
+.dark-theme .highcharts-loading {
+    background-color: black !important;
+}

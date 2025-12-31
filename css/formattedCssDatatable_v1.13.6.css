@@ -1,0 +1,305 @@
+/*Select Columns CSS START*/
+		.iframe-container {
+			border: 1px solid #ccc;
+			box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+			background-color: #fff;
+			z-index: 1000;
+			display: none;
+			/* Hidden by default; shown when needed */
+		}
+		.firstRow {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+		}
+		.firstRow a {
+			flex: 1;
+			text-align: center;
+		}
+		.chartIcon {
+			font-size: 16px;
+			cursor: pointer;
+			border: 2px solid grey;
+			/* padding: 6px; */
+			border-radius: 5px;
+		}
+		.chartIcon:hover {
+			background-color: #2F90BD;
+			color: white;
+		}
+		.popup {
+			position: fixed;
+			top: 50%;
+			left: 22%;
+			transform: translate(-50%, -50%);
+			background-color: white;
+			padding: 2px;
+			box-shadow: 0 0 1px rgba(0, 0, 0, 0.1);
+			z-index: 1000;
+			display: none;
+		}
+		ul.ColVis_collection li {
+			padding: 6px;
+		}
+		ul.ColVis_collection li span {
+			display: inline-block;
+			/* padding-left: 0.2em;*/
+			padding-left: 0.1em;
+			cursor: pointer;
+		}
+		div.ColVis {
+			float: none;
+			margin-bottom: 1em;
+		}
+		.newButtonClass {
+			background: rgba(158, 158, 158, .2);
+			box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .14), 0 3px 1px -2px rgba(0, 0, 0, .2), 0 1px 5px 0 rgba(0, 0, 0, .12) color: rgb(255, 255, 255);
+			background-color: #1890CC;
+			height: 28px;
+			border: none;
+			border-radius: 2px;
+			color: #fff;
+			position: relative;
+			margin: 0;
+			min-width: 64px;
+			padding: 0 10px;
+			display: inline-block;
+			font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+			font-size: 12px;
+			font-weight: 500;
+			text-transform: uppercase;
+			letter-spacing: 0;
+			overflow: hidden;
+			will-change: box-shadow;
+			transition: box-shadow .2s cubic-bezier(.4, 0, 1, 1), background-color .2s cubic-bezier(.4, 0, .2, 1), color .2s cubic-bezier(.4, 0, .2, 1);
+			outline: none;
+			cursor: pointer;
+			text-decoration: none;
+			text-align: center;
+			vertical-align: middle;
+		}
+		ul.ColVis_collection {
+			list-style: none;
+			width: 350px;
+			font-size: 11.5px;
+			-moz-column-count: 2;
+			-moz-column-gap: 5px;
+			-webkit-column-count: 2;
+			-webkit-column-gap: 5px;
+			column-count: 3;
+			column-gap: 2px;
+			padding: 8px 4px 4px 2px;
+			margin: 0;
+			border: 1px solid #ccc;
+			border: 1px solid rgba(0, 0, 0, 0.4);
+			background-color: #ffffff;
+			background-color: rgba(255, 255, 255);
+			overflow: hidden;
+			z-index: 2002;
+			-webkit-border-radius: 5px;
+			-moz-border-radius: 5px;
+			-ms-border-radius: 5px;
+			-o-border-radius: 5px;
+			border-radius: 5px;
+			-webkit-box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+			-moz-box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+			-ms-box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+			-o-box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+			box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+		}
+		/*Select Columns CSS ENDS*/
+		.mdl-textfield__input {
+			display: moz-inline-stack !important;
+		}
+		.fs-wrap {
+			display: inline-block;
+			cursor: pointer;
+			line-height: 1;
+			width: 100px;
+			font-size: 12px;
+			outline-color: #3f51b5 !important;
+		}
+		.fs-dropdown {
+			position: absolute;
+			background-color: #fff;
+			border: 1px solid #ddd;
+			width: 100px;
+			margin-top: 5px;
+			z-index: 300px;
+		}
+		.symbol-col {
+			color: darkblue;
+		}
+		.dark-theme .symbol-col {
+			color: #e3e3ff;
+		}
+		/***this is used to make download buttons small***/
+		.mdl-button {
+			min-width: 8px;
+			vertical-align: baseline;
+		}
+		body {
+			line-height: 10px !important;
+			/* overflow-x:hidden;*/
+		}
+		#fbox {
+			float: left;
+		}
+		.box {
+			width: 30px;
+			height: 7px;
+			padding: 6px;
+			margin: 3px;
+		}
+		.allblack{
+			color:black
+		}
+		.red-col {
+			background: #f98484;
+		}
+
+
+/*new datatable css */
+table.dataTable tbody th, 
+table.dataTable tbody td {
+    padding: 3px 3px !important;
+}
+
+table.dataTable.fixedHeader-floating th {
+    padding: 3px 3px !important;
+}
+
+
+/* Ensure the container scrolls */
+#table-container {
+    max-height: 60vh; /* Adjust height */
+    overflow-y: auto; /* Enables vertical scrolling */
+    border: 1px solid #ddd; /* Optional border */
+}
+
+/* Make the header sticky */
+#sort_table thead {
+    position: sticky;
+    top: 0;
+    background: white; /* Ensures visibility */
+    z-index: 100;
+}
+
+
+#sort_table thead th {
+    text-align: center;
+}
+
+
+table.dataTable>thead>tr>th, table.dataTable>thead>tr>td{
+	padding:3px 3px !important;
+	 border-bottom: 1px solid #111 !important;
+}
+table.dataTable thead>tr>th.sorting, table.dataTable thead>tr>th.sorting_asc, table.dataTable thead>tr>th.sorting_desc, table.dataTable thead>tr>th.sorting_asc_disabled, table.dataTable thead>tr>th.sorting_desc_disabled, table.dataTable thead>tr>td.sorting, table.dataTable thead>tr>td.sorting_asc, table.dataTable thead>tr>td.sorting_desc, table.dataTable thead>tr>td.sorting_asc_disabled, table.dataTable thead>tr>td.sorting_desc_disabled{
+		 border-top: 1px solid #111 !important;
+
+}
+
+
+
+   div.dt-button-collection{
+	   list-style: none;
+    width: 350px;
+    font-size: 11.5px;
+    -moz-column-count: 2;
+    -moz-column-gap: 5px;
+    -webkit-column-count: 2;
+    -webkit-column-gap: 5px;
+    column-count: 3;
+    column-gap: 2px;
+    padding: 8px 4px 4px 2px;
+    margin: 0;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    background-color: #ffffff;
+    background-color: rgba(255, 255, 255);
+    overflow: hidden;
+    z-index: 2002;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+    -ms-box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+    -o-box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+	
+	
+   }
+   
+   
+   
+   /* Style the ColVis menu */
+div.dt-button-collection {
+    background: white !important;
+    border: 1px solid #ccc !important;
+    padding: 10px !important;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2) !important;
+    width: auto !important;
+	left:35% !important;
+	
+}
+
+/* Style list items */
+ul.ColVis_collection { 
+    list-style: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+/* Style each list item */
+ul.ColVis_collection li {
+    padding: 5px !important;
+}
+
+/* Style the labels */
+ul.ColVis_collection li label {
+    display: flex !important;
+    align-items: center !important;
+    cursor: pointer !important;
+}
+
+/* Style checkboxes */
+ul.ColVis_collection li input[type="checkbox"] {
+    margin-right: 10px !important;
+}
+
+/* Style text inside the label */
+ul.ColVis_collection li span {
+    font-size: 10px 30px 0px 5px !important;
+}
+
+div.dt-button-collection .dt-button{
+	padding:0.5em 2.3em !important;
+}
+
+.download-btn {
+    margin-right: 10px; /* Adjust the space as needed */
+}
+
+.dt-button-down-arrow{
+	display:none !important;
+}
+
+div.dt-button-collection .dt-button{
+	padding:10px 30px 0px 5px !important;
+	
+}
+@media (max-width: 768px) {
+    
+}
+
+.dt-button-collection {
+        display: block ;
+        opacity: 1 ;
+        position: absolute ;
+        top: 156px ;
+        left: 138px ;
+    }
